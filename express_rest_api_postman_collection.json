@@ -25,44 +25,44 @@
       }
     },
     {
-      "name": "Get All Items",
+      "name": "Get All Users",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:4000/items",
+          "raw": "http://localhost:4000/users",
           "protocol": "http",
           "host": [
             "localhost"
           ],
           "port": "4000",
           "path": [
-            "items"
+            "users"
           ]
         }
       }
     },
     {
-      "name": "Get Item by ID",
+      "name": "Get User by ID",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:4000/items/1",
+          "raw": "http://localhost:4000/users/1",
           "protocol": "http",
           "host": [
             "localhost"
           ],
           "port": "4000",
           "path": [
-            "items",
+            "users",
             "1"
           ]
         }
       }
     },
     {
-      "name": "Create Item",
+      "name": "Create User",
       "request": {
         "method": "POST",
         "header": [
@@ -73,23 +73,23 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"name\": \"New Item\", \"description\": \"Created via Postman\"}"
+          "raw": "{\"name\": \"New User\", \"description\": \"Created via Postman\"}"
         },
         "url": {
-          "raw": "http://localhost:4000/items",
+          "raw": "http://localhost:4000/users",
           "protocol": "http",
           "host": [
             "localhost"
           ],
           "port": "4000",
           "path": [
-            "items"
+            "users"
           ]
         }
       }
     },
     {
-      "name": "Update Item",
+      "name": "Update User",
       "request": {
         "method": "PUT",
         "header": [
@@ -100,36 +100,36 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"name\": \"Updated Item\", \"description\": \"Updated via Postman\"}"
+          "raw": "{\"name\": \"Updated User\", \"description\": \"Updated via Postman\"}"
         },
         "url": {
-          "raw": "http://localhost:4000/items/1",
+          "raw": "http://localhost:4000/users/1",
           "protocol": "http",
           "host": [
             "localhost"
           ],
           "port": "4000",
           "path": [
-            "items",
+            "users",
             "1"
           ]
         }
       }
     },
     {
-      "name": "Delete Item",
+      "name": "Delete User",
       "request": {
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "http://localhost:4000/items/1",
+          "raw": "http://localhost:4000/users/1",
           "protocol": "http",
           "host": [
             "localhost"
           ],
           "port": "4000",
           "path": [
-            "items",
+            "users",
             "1"
           ]
         }
