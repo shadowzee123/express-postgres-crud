@@ -4,27 +4,27 @@
 1. Clone this repository
 2. Run `npm install`
 3. Start the server: `npm start`
-4. The API will be running at `http://localhost:3000`
+4. The API will be running at `http://localhost:4000`
 
 ## API Endpoints
 
 - **GET /** → `Hello, World!`
-- **GET /items** → Retrieve all items
-- **GET /items/:id** → Retrieve single item by ID
-- **POST /items** → Create new item  
+- **GET /users** → Retrieve all users
+- **GET /users/:id** → Retrieve single user by ID
+- **POST /users** → Create new user  
    Request body:
    ```json
    {
-     "name": "New Item",
-     "description": "This is a new item"
+     "name": "New User",
+     "description": "This is a new user"
    }
    ```
-- **PUT /items/:id** → Update item  
-- **DELETE /items/:id** → Delete item
+- **PUT /users/:id** → Update user  
+- **DELETE /users/:id** → Delete user
 
 ## Example with Postman
-- GET http://localhost:3000/items
-- POST http://localhost:3000/items
+- GET http://localhost:4000/users
+- POST http://localhost:4000/users
   ```json
   {
     "name": "Book",
